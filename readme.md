@@ -7,6 +7,6 @@ lenguaje de programación y conocer un poco más de los usos de HTML y CSS.
 ## Links
 
 - Canal de dalto [🔴](https://www.youtube.com/c/soydalto)
-- Nivel Junior [🔴](https://www.youtube.com/watch?v=z95mZVUcJ-E)
+- Nivel Junior   [🔴](https://www.youtube.com/watch?v=z95mZVUcJ-E)
 - Nivel MidLevel [🔴](https://www.youtube.com/watch?v=xOinGb2MZSk)
-- Nivel Master [🔴](https://www.youtube.com/watch?v=EbMi1Qj4rVE)
+- Nivel Master   [🔴](https://www.youtube.com/watch?v=EbMi1Qj4rVE)
