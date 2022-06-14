@@ -1,7 +1,9 @@
 # Practica de JavaScript
 
 Este repositorio son los ejercicios y contenido de los diferentes videos de dalto respecto a JavaScript
-y los capitulos del libro JAvaScript Elocuente  en donde se muestra todo lo relacionado a JavaScript además de fomentarme a practicar más y conocer mejor el lenguaje de programación y conocer un poco más de los usos de HTML , CSS y NodeJs.
+y los capitulos del libro JavaScript Elocuente  en donde se muestra todo lo relacionado a JavaScript además de fomentarme a practicar más y conocer mejor el lenguaje de programación y conocer un poco más de los usos de HTML , CSS y NodeJs.
+
+respecto al orden del repositorio este seguira el orden como se presenta en JavaScript Elocuente
 
 ## Links
 
