@@ -44,3 +44,5 @@ console.log("Aardvark"<"Zoroaster")//True.
 /   ==igual a. 
 /   != diferente a.
 */
+console.log("Itchy"!="Scratchy")
+//True.
