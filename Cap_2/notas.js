@@ -61,3 +61,39 @@ while (contador <10){
     contador+=1
 }
 console.log(resultado)
+console.log(" ")
+// el cliclo For es una forma de abreviar el ciclo while cuando este se requiere variables para hacer un recorrido de una serie de numeros. 
+for (let numero=0; numero<=12;numero=numero+2){
+    console.log(numero)
+}
+//la organizacion del ciclo for es: primero es inicializar la variable , la segundo es la expresion que checa y actualiza el estado del ciclo. 
+resultado=1
+for (let contador; contador<10;contador+=1){
+    resultado=resultado*2
+}
+console.log(resultado)
+// break salta fuera del ciclo o lo finaliza para seguir ejecutando el resto del codigo. 
+for (let actual=20;;actual=actual+1){
+    if(actual%7==0){
+        console.log(actual)
+        break
+    }
+}
+// Switch 
+//clima=prompt("¿Como esta el clima?. ")
+let clima="soleado"
+switch(clima){
+    case "lluvioso":
+        console.log("Recuerda salir con un paraguas.")
+        break
+    case"soleado":
+        console.log("Vistete con poca ropa")
+        break
+    case"nublado":
+        console.log("Ve afuera")
+        break
+    default:
+        console.log("Tipo de clima desconocido")
+        break
+}
+// estandar de declaracion de variables suele ser : pequeñaTortugaVerde. 
