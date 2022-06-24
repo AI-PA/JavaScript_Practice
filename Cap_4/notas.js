@@ -35,3 +35,5 @@ console.log(onject.keys({x:0,y:0,z:0})) //["x","y","z"]
 let objetoA = {a:1,b:2}
 Object.assign (objetoA,{b:3,c:4})
 console.log(objetoA)
+// Con Object.keys le das un objeto y regresa un array con los nombres de las propiedades del objeto. 
+console.log(Object.keys({x:0,y:0,z:2})) // ["x","y","z"]
