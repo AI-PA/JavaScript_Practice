@@ -36,4 +36,17 @@ let objetoA = {a:1,b:2}
 Object.assign (objetoA,{b:3,c:4})
 console.log(objetoA)
 // Con Object.keys le das un objeto y regresa un array con los nombres de las propiedades del objeto. 
+// Con Object.assign copia todas las propiedades de un objeto a otro. 
 console.log(Object.keys({x:0,y:0,z:2})) // ["x","y","z"]
+// los objetos pueden tener la misma identidad o las mismas propiedades y no se condideran iguales. 
+let objeto1 = {valor: 10};
+let objeto2 = objeto1;
+let objeto3 = {valor: 10};
+
+console.log(objeto1 == objeto2);// → true
+console.log(objeto1 == objeto3);// → false
+
+objeto1.valor = 15;
+console.log(objeto2.valor);// → 15
+console.log(objeto3.valor);// → 10
+// arrayología avanzada.
