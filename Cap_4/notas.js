@@ -50,3 +50,47 @@ objeto1.valor = 15;
 console.log(objeto2.valor);// → 15
 console.log(objeto3.valor);// → 10
 // arrayología avanzada.
+
+console.log([1,2,3,2,1].indexOf(2)) // 1 
+console.log([1,2,3,2,1].lastIndexOf(2)) // 3
+// indexOf busca el dato si se encuentra en la cadena y en que posicion se encuentra primero y eso es lo que imprime
+// en caso de no encontrarlo te dara el resultado de -1 
+// lastIndexOF hace lo mismo sol que este partiendo del final. 
+
+console.log([0,1,2,3,4].slice(2,4)) // 2,4
+console.log([0,1,2,3,4].slice(2)) // 1,3,4
+// .slice regresa un array con todos los datos que se encuentren entre los numeros escogidos siendo el 2 inclusivo y el 4 exclusivo. 
+// cuando solo se tiene un numero regresa todo a partir de ese numero. 
+
+function remover(array,indice){
+    return array.slice(0,indice)
+        .concat(array.slice(indice +1))
+}
+console.log(remover(["a","b","c","d","e"],2)) // a , b , d, e 
+// Stings y sus propiedades. 
+
+console.log("panaderia".slice(0,3)) //pan 
+console.log("panaderia".indexOf("a")) // 1 
+
+console.log(String(6).padStart(3,"0")) // 006 , 
+//padStart agrega el numero de veces que se indique en el primer parametro y en el segundo se da aquello que se repetira. 
+//.split separa un string y .join lo une. 
+
+function maximo(...numeros){
+    let resultado =-Infinity
+    for(let numero of numeros){
+        if(numero>resultado) resultado= numero
+    }
+    return resultado
+}
+console.log(maximo(4,1,9,-2))//9 
+// una funcion o array se le permite poner ... para indicar que hay muchos parametros a tratar y deben ser tomados en cuenta. 
+let numeross = [5,1,7]
+console.log(max(...numeross)) // 7 
+
+function puntoAleatorioEnCirculo(radio){
+    let angulo= Math.random()*2*Math.PI
+    return {x: radio *Math.cos(angulo), 
+            y: radio *Math.sin(angulo)}
+}
+console.log(puntoAleatorioEnCirculo(2))
