@@ -94,3 +94,9 @@ function puntoAleatorioEnCirculo(radio){
             y: radio *Math.sin(angulo)}
 }
 console.log(puntoAleatorioEnCirculo(2))
+// .reduce es usado para 
+var total = [0, 1, 2, 3].reduce(function(a, b){ return a + b; });
+// total == 6
+//arr.reduce(callback(acumulador, valorActual[, índice[, array]])[, valorInicial])
+a.toLoweCasse 
+a.toUpperCase
